@@ -1,3 +1,7 @@
+# DEMO
+
+https://calculator-app-fm.vercel.app/
+
 # Frontend Mentor - Calculator app
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
