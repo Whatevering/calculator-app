@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle<Props>`
   @media (max-width: 600px) {
     #root {
       align-items: flex-start;
-      padding: 8%;
+      padding: 4%;
     }
   }
 `;
