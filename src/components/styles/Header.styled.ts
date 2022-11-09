@@ -10,12 +10,19 @@ const StyledHeader = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0.5rem;
+
+  @media (max-width: 600px) {
+    max-width: 90%;
+  }
 `;
 
 const Title = styled.span<Props>`
   font-size: 1.3rem;
   font-weight: 700;
   color: ${({ theme }) => (theme as ThemeType).colors.NormalText};
+  @media (max-width: 600px) {
+    font-size: 1.6rem;
+  }
 `;
 
 const ToggleContainer = styled.div`
@@ -34,6 +41,9 @@ const ToggleText = styled.span<Props>`
   font-weight: 600;
   margin-right: 1.3rem;
   margin-top: 2px;
+  @media (max-width: 600px) {
+    transform: scale(1);
+  }
 `;
 
 const ToggleNumLayout = styled.div`

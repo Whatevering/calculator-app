@@ -10,5 +10,6 @@ const Container = styled.div<Props>`
   gap: 1rem;
   width: 100%;
   max-width: 400px;
+  justify-content: center;
 `;
 export default Container;
