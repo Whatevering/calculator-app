@@ -23,7 +23,7 @@ const Title = styled.span<Props>`
   font-weight: 700;
   color: ${({ theme }) => (theme as ThemeType).colors.NormalText};
   @media (max-width: 600px) {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 `;
 
@@ -45,7 +45,8 @@ const ToggleText = styled.span<Props>`
   margin-top: 2px;
   @media (max-width: 600px) {
     transform: scale(1);
-    font-size: 14px;
+    font-size: 13px;
+    margin-right: 1rem;
   }
 `;
 
