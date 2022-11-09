@@ -12,7 +12,9 @@ const StyledHeader = styled.div`
   margin-bottom: 0.5rem;
 
   @media (max-width: 600px) {
-    max-width: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 `;
 
@@ -43,6 +45,7 @@ const ToggleText = styled.span<Props>`
   margin-top: 2px;
   @media (max-width: 600px) {
     transform: scale(1);
+    font-size: 14px;
   }
 `;
 
@@ -77,6 +80,7 @@ const ToggleTouchedAreaLayout = styled.div`
   height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  z-index: 10000;
 `;
 
 const ToggleTouchedArea = styled.div`
@@ -91,6 +95,7 @@ const ToggleBallMovingArea = styled.div`
   height: 100%;
   padding: 4px;
   transition: all 0.2s;
+  z-index: 8000;
 `;
 
 interface ToggleBallProps extends Props {
